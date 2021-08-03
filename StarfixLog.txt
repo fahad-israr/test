@@ -1,0 +1,46 @@
+default	04:25:07.805520+0530	Finder	LAUNCHING:0x0-0x40040 starfix foreground=1 bringForward=1 seed=129 userActivityCount=0
+default	04:25:07.812745+0530	loginwindow	-[PersistentAppsSupport applicationReady:] | App: starfix, ready, updating active tracking timer
+default	04:25:07.812810+0530	loginwindow	-[ApplicationManager checkInAppContext:eventData:] | ApplicationManager: Checked in app : starfix
+default	04:25:07.826771+0530	distnoted	register name: com.apple.sharedfilelist.change object: com.apple.LSSharedFileList.ApplicationRecentDocuments/dev.starfix token: f42bc pid: 332
+default	04:25:07.828962+0530	lsd	Non-fatal error enumerating at <private>, continuing: Error Domain=NSCocoaErrorDomain Code=260 "The file “PlugIns” couldn’t be opened because there is no such file." UserInfo={NSURL=PlugIns/ -- file:///Applications/starfix.app/Contents/, NSFilePath=/Applications/starfix.app/Contents/PlugIns, NSUnderlyingError=0x7fc12121e320 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+default	04:25:07.829016+0530	lsd	- 45683955: Checking whether application is managed at file:///Applications/starfix.app//dev.starfix
+default	04:25:07.842349+0530	nehelper	Handling an apps installed notification with bundle IDs (
+    "dev.starfix"
+)
+default	04:25:07.857419+0530	applet	MessageTracer: Falling back to default whitelist
+default	04:25:07.859177+0530	applet	FRONTLOGGING: version 1
+default	04:25:07.859188+0530	applet	Registering, pid=719
+default	04:25:07.859476+0530	applet	Received configuration update from daemon (initial)
+default	04:25:07.860088+0530	applet	CHECKIN: pid=719
+default	04:25:07.864499+0530	launchservicesd	CHECKIN:0x0-0x40040 719 dev.starfix
+default	04:25:07.864655+0530	applet	CHECKEDIN: pid=719 asn=0x0-0x40040 foreground=1
+default	04:25:07.865287+0530	loginwindow	-[ApplicationManager checkInAppContext:eventData:] | ApplicationManager: Checked in app : starfix
+default	04:25:07.872929+0530	applet	Registered, pid=719 ASN=0x0,0x40040
+default	04:25:07.873030+0530	applet	Registered, pid=719 cgConnectionID=3317f
+default	04:25:07.874212+0530	applet	BringForward: pid=719 asn=0x0-0x40040 bringForward=1 foreground=1 uiElement=0 launchedByLS=1 modifiersCount=1 allDisabled=0
+default	04:25:07.874260+0530	applet	BringFrontModifier: pid=719 asn=0x0-0x40040 Modifier 0 hideAfter=0 hideOthers=0 dontMakeFrontmost=0 mouseDown=0/0 seed=0/0
+default	04:25:07.874438+0530	applet	BringForward: pid=719 asn=0x0-0x40040
+default	04:25:07.874578+0530	applet	SetFrontProcess: asn=0x0-0x40040 options=0
+default	04:25:07.879168+0530	applet	Current system appearance, (HLTB: 2), (SLS: 1)
+default	04:25:07.883380+0530	applet	Post-registration system appearance: (HLTB: 2)
+default	04:25:07.893052+0530	distnoted	register name: com.apple.xctest.FakeForceTouchDevice object: dev.starfix token: f4268 pid: 719
+default	04:25:07.900572+0530	applet	NSApp cache appearance:
+-NSRequiresAquaSystemAppearance: 0
+-appearance: (null)
+-effectiveAppearance: <NSCompositeAppearance: 0x600001480e00
+ (
+    "<NSDarkAquaAppearance: 0x60000148c380>",
+    "<NSSystemAppearance: 0x60000148ca80>"
+)>
+default	04:25:07.915430+0530	distnoted	register name: com.apple.nsquiet_safe_quit_give_reason object: dev.starfix token: f4276 pid: 719
+default	04:25:07.932115+0530	applet	Registering for test daemon availability notify post.
+default	04:25:07.932239+0530	applet	notify_get_state check indicated test daemon not ready.
+default	04:25:07.976952+0530	applet	SignalReady: pid=719 asn=0x0-0x40040
+default	04:25:07.977598+0530	applet	SIGNAL: pid=719 asn=0x0x-0x262208
+default	04:25:07.978281+0530	loginwindow	-[PersistentAppsSupport applicationReady:] | App: starfix, ready, updating active tracking timer
+error	04:25:07.983241+0530	tccd	Failed to copy signing info for 719, responsible for file:///Applications/starfix.app/Contents/MacOS/applet: #-67062: Error Domain=NSOSStatusErrorDomain Code=-67062 "(null)"
+default	04:25:07.987885+0530	tccd	-[TCCDAccessIdentity staticCode]: static code for: identifier dev.starfix, type: 0: 0x7fa8736338e0 at /Applications/starfix.app
+default	04:25:08.036413+0530	applet	Trust evaluate failure: [leaf TemporalValidity]
+default	04:25:08.232398+0530	applet	Trust evaluate failure: [leaf TemporalValidity]
+default	04:25:08.264045+0530	loginwindow	-[PersistentAppsSupport applicationQuit:] | for app:starfix, _appTrackingState = 2
+default	04:25:08.264070+0530	loginwindow	-[PersistentAppsSupport applicationQuit:] | App: starfix, quit, updating active tracking timer
